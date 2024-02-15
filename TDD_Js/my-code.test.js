@@ -3,7 +3,7 @@ const { sub } = require('./my-code')
 const { mult } = require('./my-code')
 const { div } = require('./my-code')
 
-describe('time functions', () => {
+describe('calc functions', () => {
     it('sums 2 numbers', () => {
         expect(sum(1,2)).toBe(3)
     })
